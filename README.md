@@ -13,43 +13,43 @@ Customer churn is defined as when a customer stops service from the company. In 
 ---
 ## Objectives
 Creating a Classification model to predict Customers Churn using the Artificial Neural Network Algorithm
----
-*Project ini* dikerjakan dalam format *notebook* dengan/atau dengan *model deployment* (opsional) dengan beberapa *kriteria wajib* di bawah ini:
 
-1. Deep Learning framework yang digunakan adalah *Tensorflow*.
+*This project* is done in *notebook* format with/or with *deployment model* (optional) with the following *mandatory criteria*:
 
-2. Ada penggunaan library visualisasi, seperti *matplotlib*, *seaborn*, atau yang lain.
+1. The Deep Learning framework used is *Tensorflow*.
 
-3. Isi *notebook* harus mengikuti *outline* di bawah ini:
-   1. Perkenalan
-      > Bab pengenalan harus diisi dengan identitas, gambaran besar dataset yang digunakan, dan *objective* yang ingin dicapai.
-   
-   2. Import Libraries
-      > *Cell* pertama pada *notebook* **harus berisi dan hanya berisi** semua *library* yang digunakan dalam *project*.
-   
-   3. Data Loading
-      > Bagian ini berisi proses penyiapan data sebelum dilakukan eksplorasi data lebih lanjut. Proses Data Loading dapat berupa memberi nama baru untuk setiap kolom, mengecek ukuran dataset, dll.
-   
-   4. Exploratory Data Analysis (EDA)
-      > Bagian ini berisi explorasi data pada dataset diatas dengan menggunakan query, grouping, visualisasi sederhana, dan lain sebagainya.
+2. There is use of a visualization library, such as *matplotlib*, *seaborn*, or others.
 
-   5. Data Preprocessing
-      > Bagian ini berisi proses penyiapan data untuk proses pelatihan model, seperti pembagian data menjadi train-dev-test, transformasi data (normalisasi, encoding, dll.), dan proses-proses lain yang dibutuhkan.   
+3. The contents of *notebook* must follow the *outline* below:
+    1. Introductions
+       > The introductory chapter must be filled with identity, a big picture of the dataset used, and the *objective* you want to achieve.
    
-   6. Model Definition
-      > Bagian ini berisi cell untuk mendefinisikan model. Jelaskan alasan menggunakan suatu algoritma/model, hyperparameter yang dipakai, jenis penggunaan metrics yang dipakai, dan hal lain yang terkait dengan model.
+    2. Import Libraries
+       > The first *cell* in *notebook* **must contain and contain only** all *libraries* used in *project*.
+   
+    3. Data Loading
+       > This section contains the data preparation process prior to further data exploration. The Data Loading process can be in the form of giving a new name to each column, checking the size of the dataset, etc.
+   
+    4. Exploratory Data Analysis (EDA)
+       > This section contains data exploration in the dataset above by using queries, groupings, simple visualizations, and so on.
 
-   7. Model Training
-      > Cell pada bagian ini hanya berisi code untuk melatih model dan output yang dihasilkan. Lakukan beberapa kali proses training dengan hyperparameter yang berbeda untuk melihat hasil yang didapatkan. Analisis dan narasikan hasil ini pada bagian Model Evaluation.
+    5. Data Preprocessing
+       > This section contains the process of preparing data for the model training process, such as dividing data into train-dev-test, data transformation (normalization, encoding, etc.), and other processes needed.
    
-   8. Model Evaluation
-      > Pada bagian ini, dilakukan evaluasi model yang harus menunjukkan bagaimana performa model berdasarkan metrics yang dipilih. Hal ini harus dibuktikan dengan visualisasi tren performa dan/atau tingkat kesalahan model. **Lakukan analisis terkait dengan hasil pada model dan tuliskan hasil analisisnya**.
+    6.Model Definition
+       > This section contains cells to define the model. Explain the reasons for using an algorithm/model, the hyperparameters used, the types of metrics used, and other things related to the model.
 
-   9. Model Saving
-      > Dengan melihat hasil evaluasi model, pilihlah model terbaik untuk disimpan. Model terbaik ini akan digunakan kembali dalam melakukan deployment di Heroku.
+    7. Model Training
+       > Cells in this section only contain code to train the model and the resulting output. Do the training process several times with different hyperparameters to see the results obtained. Analyze and narrate these results in the Model Evaluation section.
    
-   10. Model Inference
-       > Model yang sudah dilatih akan dicoba pada data yang bukan termasuk ke dalam train-set ataupun test-set. Data ini harus dalam format yang asli, bukan data yang sudah di-scaled.
+    8. Model Evaluation
+       > In this section, a model evaluation is carried out which must show how the model performs based on the selected metrics. This should be proven by visualizing performance trends and/or model error rates. **Perform analysis related to the results on the model and write down the results of the analysis**.
+
+    9. Model Saving
+       > By looking at the model evaluation results, choose the best model to save. This best model will be reused in deploying on Heroku.
    
-   11. Pengambilan Kesimpulan
-       > Pada bagian terakhir ini, **harus berisi** kesimpulan yang mencerminkan hasil yang didapat dengan *objective* yang sudah ditulis di bagian pengenalan.
+    10. Model Inference
+        > Models that have been trained will be tried on data that is not included in the train-set or test-set. This data must be in the original format, not data that has been scaled.
+   
+    11. Conclusion
+        > In this last section, **must contain** conclusions that reflect the results obtained with the *objective* that has been written in the introduction section.
