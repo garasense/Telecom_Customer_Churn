@@ -1,11 +1,5 @@
 <h1 align="center">Telecom Customer Churn</h1>
 
-<p align="center">
-  <img src="https://media.discordapp.net/attachments/1053904949265829930/1054578020792414228/logodifa.png?width=636&height=636"></img>
-</p>
-
-Objectives
-Creating a Classification model to predict Customers Churn using the Artificial Neural Network Algorithm
 ## Project's Background
 PT. Telco is a company that has products and services such as telephone, internet, online security, online backup, device protection, technical support, and TV and movie streaming. In facing service competition in the market, companies need to know the behavior of their customers.
 
@@ -16,6 +10,9 @@ Customer churn is defined as when a customer stops service from the company. In 
 3. How many customers end up being churn based on the charges?
 4. What is the percentage of churn when viewed by tenure?
 5. Classify to predict whether a customer will churn or not! and choose the best model
+---
+## Objectives
+Creating a Classification model to predict Customers Churn using the Artificial Neural Network Algorithm
 ---
 *Project ini* dikerjakan dalam format *notebook* dengan/atau dengan *model deployment* (opsional) dengan beberapa *kriteria wajib* di bawah ini:
 
