@@ -36,7 +36,7 @@ Creating a Classification model to predict Customers Churn using the Artificial 
     5. Data Preprocessing
        > This section contains the process of preparing data for the model training process, such as dividing data into train-dev-test, data transformation (normalization, encoding, etc.), and other processes needed.
    
-    6.Model Definition
+    6. Model Definition
        > This section contains cells to define the model. Explain the reasons for using an algorithm/model, the hyperparameters used, the types of metrics used, and other things related to the model.
 
     7. Model Training
