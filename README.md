@@ -1,4 +1,7 @@
 <h1 align="center">Telecom Customer Churn</h1>
+<p align="center">
+  <img src="https://koptel.co.id/assets/img/static/logo_koptel.png"></img>
+</p>
 
 ## Project's Background
 PT. Telco is a company that has products and services such as telephone, internet, online security, online backup, device protection, technical support, and TV and movie streaming. In facing service competition in the market, companies need to know the behavior of their customers.
